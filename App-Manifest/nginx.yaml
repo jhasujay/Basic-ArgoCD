@@ -1,5 +1,5 @@
 # Yaml file update
---- 
+
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
@@ -17,6 +17,5 @@ spec:
         app: nginx
     spec: 
       containers: 
-        - 
           image: nginx
           name: nginx
