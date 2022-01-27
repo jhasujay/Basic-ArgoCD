@@ -1,1 +1,1 @@
-# Basic-ArgoCD
+# Basic-ArgoCD-Nginx-aaplication.
