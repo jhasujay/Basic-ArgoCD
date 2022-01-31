@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name: Deploy simple hello app to GKE
+name: Deploy Nginx to GKE
 
 on:
   push:
@@ -24,7 +24,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: cluster-1    # TODO: update to cluster name
   GKE_ZONE: europe-central2-a	   # TODO: update to cluster zone
-  DEPLOYMENT_NAME: gke-hello-app # TODO: update deployment name if changed in deployment.yaml
+  DEPLOYMENT_NAME: gke-nginx # TODO: update deployment name if changed in deployment.yaml
 
 jobs:
   setup-and-deploy:
